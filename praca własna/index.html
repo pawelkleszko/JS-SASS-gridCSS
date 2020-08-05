@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacja DOM</title>
+    <link rel="stylesheet" href="css\main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="submit" class="form form--add">
+            <h1 class="form-title">dodaj element do dom</h1>
+            <input type="text" class="form__input" name="node" placeholder="podaj rodzaj węzła">
+            <input type="text" class="form__input" name="text" placeholder="podaj zawartość tekstową węzła">
+            <input type="text" class="form__input" name="attr" placeholder="podaj atrybut węzła">
+            <input type="text" class="form__input" name="attr-value" placeholder="podaj wartość dla atrybutu">
+            <button class="form__button form--add__btn">dodaj element</button>
+        </form>
+        <form action="submit" class="form form--search">
+            <h1 class="form-title">dodaj element do dom</h1>
+            <input type="text" class="form__input form__input--search" name="search" placeholder="podaj szukaną frazę">
+            <button class="form__button form__button--search">znajdź i pokaż informacje</button>
+        </form>
+        <div class="show-info"></div>
+        <div class="content"></div>
+        <footer class="footer">Stopka</footer>
+    </div>
+
+    <script src=""></script>
+</body>
+
+</html>

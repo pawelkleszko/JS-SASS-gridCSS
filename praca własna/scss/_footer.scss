@@ -1,0 +1,15 @@
+.footer {
+    grid-column: 1/-1;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    width: 80vw;
+    padding: 20px;
+    margin: 0 auto;
+
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
